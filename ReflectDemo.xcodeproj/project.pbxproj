@@ -23,6 +23,8 @@
 		4DF320F216FAFD1D0036E038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF320CD16FAFD1C0036E038 /* Foundation.framework */; };
 		4DF320FA16FAFD1D0036E038 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF320F816FAFD1D0036E038 /* InfoPlist.strings */; };
 		4DF320FD16FAFD1D0036E038 /* ReflectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF320FC16FAFD1D0036E038 /* ReflectDemoTests.m */; };
+		4DF3210B16FAFDE60036E038 /* reflectDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF3210A16FAFDE60036E038 /* reflectDemo.png */; };
+		4DF3210D16FAFE3E0036E038 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF3210C16FAFE3E0036E038 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		4DF320F916FAFD1D0036E038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DF320FB16FAFD1D0036E038 /* ReflectDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectDemoTests.h; sourceTree = "<group>"; };
 		4DF320FC16FAFD1D0036E038 /* ReflectDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectDemoTests.m; sourceTree = "<group>"; };
+		4DF3210A16FAFDE60036E038 /* reflectDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reflectDemo.png; sourceTree = "<group>"; };
+		4DF3210C16FAFE3E0036E038 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF3210D16FAFE3E0036E038 /* QuartzCore.framework in Frameworks */,
 				4DF320CC16FAFD1C0036E038 /* UIKit.framework in Frameworks */,
 				4DF320CE16FAFD1C0036E038 /* Foundation.framework in Frameworks */,
 				4DF320D016FAFD1C0036E038 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +111,7 @@
 		4DF320CA16FAFD1C0036E038 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DF3210C16FAFE3E0036E038 /* QuartzCore.framework */,
 				4DF320CB16FAFD1C0036E038 /* UIKit.framework */,
 				4DF320CD16FAFD1C0036E038 /* Foundation.framework */,
 				4DF320CF16FAFD1C0036E038 /* CoreGraphics.framework */,
@@ -117,6 +123,7 @@
 		4DF320D116FAFD1C0036E038 /* ReflectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4DF3210A16FAFDE60036E038 /* reflectDemo.png */,
 				4DF320DA16FAFD1C0036E038 /* QAppDelegate.h */,
 				4DF320DB16FAFD1C0036E038 /* QAppDelegate.m */,
 				4DF320E316FAFD1C0036E038 /* QViewController.h */,
@@ -237,6 +244,7 @@
 				4DF320E016FAFD1C0036E038 /* Default@2x.png in Resources */,
 				4DF320E216FAFD1C0036E038 /* Default-568h@2x.png in Resources */,
 				4DF320E816FAFD1C0036E038 /* QViewController.xib in Resources */,
+				4DF3210B16FAFDE60036E038 /* reflectDemo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
